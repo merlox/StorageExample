@@ -15,6 +15,7 @@
 		962C25B6242BA86E00AFC390 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 962C25B4242BA86E00AFC390 /* LaunchScreen.storyboard */; };
 		962C25C1242BA86E00AFC390 /* StorageExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962C25C0242BA86E00AFC390 /* StorageExampleTests.swift */; };
 		962C25CC242BA86E00AFC390 /* StorageExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962C25CB242BA86E00AFC390 /* StorageExampleUITests.swift */; };
+		962C25DA242BA89000AFC390 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962C25D9242BA89000AFC390 /* Storage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		962C25C7242BA86E00AFC390 /* StorageExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StorageExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		962C25CB242BA86E00AFC390 /* StorageExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageExampleUITests.swift; sourceTree = "<group>"; };
 		962C25CD242BA86E00AFC390 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		962C25D9242BA89000AFC390 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		962C259D242BA86C00AFC390 = {
 			isa = PBXGroup;
 			children = (
+				962C25D9242BA89000AFC390 /* Storage.swift */,
 				962C25A8242BA86D00AFC390 /* StorageExample */,
 				962C25BF242BA86E00AFC390 /* StorageExampleTests */,
 				962C25CA242BA86E00AFC390 /* StorageExampleUITests */,
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				962C25AA242BA86D00AFC390 /* AppDelegate.swift in Sources */,
+				962C25DA242BA89000AFC390 /* Storage.swift in Sources */,
 				962C25AC242BA86D00AFC390 /* SceneDelegate.swift in Sources */,
 				962C25AE242BA86D00AFC390 /* ContentView.swift in Sources */,
 			);

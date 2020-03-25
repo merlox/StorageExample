@@ -5,6 +5,7 @@
 //  Created by Merunas Grincalaitis on 25/03/2020.
 //  Copyright © 2020 Merunas Grincalaitis. All rights reserved.
 //
+// Check the STORAGE file
 
 import SwiftUI
 
